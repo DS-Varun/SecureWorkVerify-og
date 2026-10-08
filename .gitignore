@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Private keys - NEVER commit
+backend/keys/*.key
+backend/keys/**/*.key
+backend/keys/retired/*.key
+
+# Uploaded documents - NEVER commit
+backend/uploads/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+
+# Firebase service account
+*serviceAccount*.json
+firebase-*.json
